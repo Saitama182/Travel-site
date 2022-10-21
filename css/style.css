@@ -285,7 +285,7 @@ img {
 
 /* Places  styles start */
 
-.places{
+.places {
     margin-bottom: 131px;
 }
 
@@ -338,8 +338,8 @@ img {
     z-index: 2;
 }
 
-.places_card:hover .places_card-pic{
- transform: scale(1.05);
+.places_card:hover .places_card-pic {
+    transform: scale(1.05);
 }
 
 .places_card-title {
@@ -364,16 +364,18 @@ img {
     width: 100%;
     transition: .15s;
 }
-.places_card-pic_size_lg{
+
+.places_card-pic_size_lg {
     height: 354px;
     object-fit: cover;
 }
 
-.places_card-pic_size_sm{
+.places_card-pic_size_sm {
     height: 283px;
     object-fit: cover;
 }
-.places_card-link{
+
+.places_card-link {
     position: absolute;
     top: 0;
     left: 0;
@@ -384,3 +386,45 @@ img {
 
 
 /* Places  styles end */
+
+/* Tours styles start */
+
+.tours {
+    margin-bottom: 139px;
+}
+
+.tours_tour {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 108px;
+    align-items: center;
+}
+
+.tour_title {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 85px;
+}
+
+.tour_desc{
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 58px;
+}
+
+.tour_more{
+    font-size: 16px;
+    color: #006DFE;
+    text-decoration: none;
+    background: url(../img/svg/arrow-right-ico.svg) no-repeat 100% center;
+    padding-right: 59px;
+}
+
+.tour_more:hover,
+.tour_more:focus {
+    opacity: .095;
+}
+
+
+/* Tours styles end */
